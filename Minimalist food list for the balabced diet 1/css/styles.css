@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, sans-serif;
+    color: #2a2a2a;
+    background-color: #fafafa;
+}
+
+.products {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.products th,
+.products td {
+    padding: 4px 8px;
+    border: 1px solid #2a2a2a;
+}
+
+.products caption {
+    margin-bottom: 8x;
+    caption-side: top;
+}
+
+.products thead,
+.products tfoot {
+    background-color: aquamarine;
+}
+
+.products td:hover {
+    background-color:orangered;
+}
+
+.products tbody tr:nth-child(odd) {
+    background-color: bisque;
+}
+
+.products tbody tr:nth-child(even) {
+    background-color: burlywood;
+}
